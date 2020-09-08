@@ -3,8 +3,9 @@ import CounterHooks from './CounterHooks';
 import Toggler from './Toggler';
 import SimpleFormHooks from './SimpleFormHooks';
 import SimpleFormInputHook from './SimpleFormInputHook';
-import './App.css';
 import Clicker from './Clicker';
+import SWMovies from './SWMovies';
+import './App.css';
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       {/* <CounterHooks />
       <Toggler />
       <SimpleFormHooks />
-      <SimpleFormInputHook /> */}
-      <Clicker />
+      <SimpleFormInputHook />
+      <Clicker /> */}
+      <SWMovies />
     </div>
   );
 }
